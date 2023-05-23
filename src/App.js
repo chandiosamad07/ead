@@ -6,6 +6,7 @@ import Values from "./ContextAPI";
 import Welcome from "./classComponents/welcome";
 import Greeting from "./funcationcomponents/greeting";
 import Greetingprop from "./Props/Greetingprop";
+import Inner from "./funcationcomponents/NestedComponent";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <Greetingprop name="Abdul" />
       <Greetingprop name="Samad" />
       <Greetingprop name="Chandio" />
+      <Inner></Inner>
       
     </div>
   );
