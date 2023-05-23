@@ -7,6 +7,7 @@ import Welcome from "./classComponents/welcome";
 import Greeting from "./funcationcomponents/greeting";
 import Greetingprop from "./Props/Greetingprop";
 import Inner from "./funcationcomponents/NestedComponent";
+import Profile from "./funcationcomponents/Avator";
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,7 @@ function App() {
       <Greetingprop name="Samad" />
       <Greetingprop name="Chandio" />
       <Inner></Inner>
-      
+      <Profile />
     </div>
   );
 }
