@@ -19,7 +19,7 @@ export default function SpCounter (){
     return(
         <div>
         <h1>Counters That update sparately</h1>
-        <MyButton></MyButton>
+        <MyButton ></MyButton>
         <MyButton></MyButton>
         </div>
     );
