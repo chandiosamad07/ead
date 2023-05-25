@@ -12,11 +12,15 @@ import SpCounter from "./funcationcomponents/SpCounter";
 import Tick from "./funcationcomponents/Tick";
 import Clock from "./classComponents/Clock";
 import MyForm from "./Forms/MyForm";
+import Form from "./Forms/nameAge";
+import ClassCounter from "./Hooks/ClassCounter";
+import HookCounter from "./Hooks/HookCounter";
 function App() {
   return (
     <div className="App">
-
-      <MyForm/>
+      <HookCounter/>
+      <ClassCounter/>
+      {/* <Form/> */}
       {/* <Car1 />
       <withLoading />
       <Values />
