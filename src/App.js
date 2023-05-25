@@ -15,11 +15,13 @@ import MyForm from "./Forms/MyForm";
 import Form from "./Forms/nameAge";
 import ClassCounter from "./Hooks/ClassCounter";
 import HookCounter from "./Hooks/HookCounter";
+import HookCounterTwo from "./Hooks/HookCounterTwo";
 function App() {
   return (
     <div className="App">
-      <HookCounter/>
-      <ClassCounter/>
+     <HookCounterTwo></HookCounterTwo>
+      {/* <HookCounter/>
+      <ClassCounter/> */}
       {/* <Form/> */}
       {/* <Car1 />
       <withLoading />
