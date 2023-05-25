@@ -16,10 +16,12 @@ import Form from "./Forms/nameAge";
 import ClassCounter from "./Hooks/ClassCounter";
 import HookCounter from "./Hooks/HookCounter";
 import HookCounterTwo from "./Hooks/HookCounterTwo";
+import HookCounterThree from "./Hooks/HookCounterThree";
 function App() {
   return (
     <div className="App">
-     <HookCounterTwo></HookCounterTwo>
+      <HookCounterThree />
+     {/* <HookCounterTwo></HookCounterTwo> */}
       {/* <HookCounter/>
       <ClassCounter/> */}
       {/* <Form/> */}
