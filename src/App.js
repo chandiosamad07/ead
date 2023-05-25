@@ -10,25 +10,25 @@ import Inner from "./funcationcomponents/NestedComponent";
 import Profile from "./funcationcomponents/Avator";
 import SpCounter from "./funcationcomponents/SpCounter";
 import Tick from "./funcationcomponents/Tick";
-import Tickp from "./Props/TickProb";
+import Clock from "./classComponents/Clock";
 function App() {
   return (
     <div className="App">
-      {/* <Car1 />
+      <Car1 />
       <withLoading />
       <Values />
       <Welcome></Welcome>
       <Greeting></Greeting>
       <Inner></Inner>
       <Profile />
-      <SpCounter/> */}
+      <SpCounter/>  
 
-      <Greetingprop name="Abdul" />
+       <Greetingprop name="Abdul" />
       <Greetingprop name="Samad" />
-      <Greetingprop name="Chandio" />
-
-      <Tick />
-  <Tickp />
+      <Greetingprop name="Chandio" /> 
+    <Clock />
+      {/* <Tick />    */}
+            
     </div>
   );
 }
