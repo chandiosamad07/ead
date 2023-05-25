@@ -17,10 +17,12 @@ import ClassCounter from "./Hooks/ClassCounter";
 import HookCounter from "./Hooks/HookCounter";
 import HookCounterTwo from "./Hooks/HookCounterTwo";
 import HookCounterThree from "./Hooks/HookCounterThree";
+import HookCounterfour from "./Hooks/HookCounterfour";
 function App() {
   return (
     <div className="App">
-      <HookCounterThree />
+      <HookCounterfour />
+      {/* <HookCounterThree /> */}
      {/* <HookCounterTwo></HookCounterTwo> */}
       {/* <HookCounter/>
       <ClassCounter/> */}
