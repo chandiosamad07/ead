@@ -11,10 +11,13 @@ import Profile from "./funcationcomponents/Avator";
 import SpCounter from "./funcationcomponents/SpCounter";
 import Tick from "./funcationcomponents/Tick";
 import Clock from "./classComponents/Clock";
+import MyForm from "./Forms/MyForm";
 function App() {
   return (
     <div className="App">
-      <Car1 />
+
+      <MyForm/>
+      {/* <Car1 />
       <withLoading />
       <Values />
       <Welcome></Welcome>
@@ -26,7 +29,7 @@ function App() {
        <Greetingprop name="Abdul" />
       <Greetingprop name="Samad" />
       <Greetingprop name="Chandio" /> 
-    <Clock />
+    <Clock /> */}
       {/* <Tick />    */}
             
     </div>
