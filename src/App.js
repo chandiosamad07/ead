@@ -21,10 +21,12 @@ import HookCounterfour from "./Hooks/HookCounterfour";
 import EffectCounterone from "./Hooks/EffectCounterone";
 import HookMouse from "./Hooks/HookMouse";
 import MouseContainer from "./Hooks/MouseContainer";
+import DataFecting from "./Hooks/DataFecting";
 function App() {
   return (
     <div className="App">
-      <MouseContainer></MouseContainer>
+      <DataFecting/>
+      {/* <MouseContainer></MouseContainer> */}
       {/* <HookMouse /> */}
 {/* 
       <EffectCounterone></EffectCounterone>
