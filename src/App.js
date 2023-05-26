@@ -28,13 +28,15 @@ import Home from "./Router/Home";
 import { Routes ,Route } from 'react-router-dom';
 import About from "./Router/About";
 import NavBar from "./Router/NavBar";
+import OrderSummray from "./Router/OrderSummray";
 function App() {
   return (
     <div className="App">
     <NavBar></NavBar>
     <Routes>
       <Route path ='/' element = {<Home />}></Route>
-      <Route path ='/about' element = {<About />}></Route>
+      <Route path ='about' element = {<About />}></Route>
+      <Route path = 'order' element = {<OrderSummray/>}></Route>
     </Routes>
 
      {/* <YoutubeForm></YoutubeForm>  */}
