@@ -24,11 +24,20 @@ import MouseContainer from "./Hooks/MouseContainer";
 import DataFecting from "./Hooks/DataFecting";
 import YoutubeForm from "./Forms/YoutubeForm";
 import TodoList from "./TodoList";
+import Home from "./Router/Home";
+import { Routes ,Route } from 'react-router-dom';
+import About from "./Router/About";
+import NavBar from "./Router/NavBar";
 function App() {
   return (
     <div className="App">
-    
-     <YoutubeForm></YoutubeForm> 
+    <NavBar></NavBar>
+    <Routes>
+      <Route path ='/' element = {<Home />}></Route>
+      <Route path ='/about' element = {<About />}></Route>
+    </Routes>
+
+     {/* <YoutubeForm></YoutubeForm>  */}
       {/* <DataFecting /> */}
       {/* <MouseContainer></MouseContainer> */}
       {/* <HookMouse /> */}
