@@ -18,10 +18,12 @@ import HookCounter from "./Hooks/HookCounter";
 import HookCounterTwo from "./Hooks/HookCounterTwo";
 import HookCounterThree from "./Hooks/HookCounterThree";
 import HookCounterfour from "./Hooks/HookCounterfour";
+import EffectCounterone from "./Hooks/EffectCounterone";
 function App() {
   return (
     <div className="App">
-      <HookCounterfour />
+      <EffectCounterone></EffectCounterone>
+      {/* <HookCounterfour /> */}
       {/* <HookCounterThree /> */}
      {/* <HookCounterTwo></HookCounterTwo> */}
       {/* <HookCounter/>
