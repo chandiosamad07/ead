@@ -9,6 +9,24 @@ function YoutubeForm() {
         },
         onSubmit:values =>{
             console.log('form data', values)
+            console.log('form data', formik.errors)
+        },
+        validate:values =>{
+            let errors={}
+            if(!values.name){
+                errors.name = 'Requried'
+            }
+            if(!values.email){
+                errors.email = 'Requried'
+            }
+            else if(!/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/i.test(values.email)){
+                errors.email ='invild Email'
+            }
+            if(!values.chaneel){
+                errors.chaneel = 'Requried'
+            }
+
+            return errors
         }
     })
 
@@ -25,7 +43,7 @@ function YoutubeForm() {
             <label>Channel</label>
             <input type='text' id='channel' name='chaneel' onChange={formik.handleChange} value={formik.values.chaneel}></input>
 
-            <button>Submit</button>
+            <button type='submit'>Submit</button>
         </form>
     </div>
   )
