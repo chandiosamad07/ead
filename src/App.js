@@ -19,11 +19,16 @@ import HookCounterTwo from "./Hooks/HookCounterTwo";
 import HookCounterThree from "./Hooks/HookCounterThree";
 import HookCounterfour from "./Hooks/HookCounterfour";
 import EffectCounterone from "./Hooks/EffectCounterone";
+import HookMouse from "./Hooks/HookMouse";
+import MouseContainer from "./Hooks/MouseContainer";
 function App() {
   return (
     <div className="App">
+      <MouseContainer></MouseContainer>
+      {/* <HookMouse /> */}
+{/* 
       <EffectCounterone></EffectCounterone>
-      {/* <HookCounterfour /> */}
+      <HookCounterfour /> */}
       {/* <HookCounterThree /> */}
      {/* <HookCounterTwo></HookCounterTwo> */}
       {/* <HookCounter/>
