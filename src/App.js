@@ -23,21 +23,27 @@ import HookMouse from "./Hooks/HookMouse";
 import MouseContainer from "./Hooks/MouseContainer";
 import DataFecting from "./Hooks/DataFecting";
 import YoutubeForm from "./Forms/YoutubeForm";
-import TodoList from "./TodoList";
 import Home from "./Router/Home";
 import { Routes ,Route } from 'react-router-dom';
 import About from "./Router/About";
 import NavBar from "./Router/NavBar";
 import OrderSummray from "./Router/OrderSummray";
+import TodoList from  '../src/TodoList'
+import ComponentC from './Context/ComponentC'
+import { UserProvider } from "./Context/UserContext";
 function App() {
   return (
     <div className="App">
-    <NavBar></NavBar>
+      <UserProvider value={' Abdul Samad'}>
+      <ComponentC></ComponentC>
+      </UserProvider>
+      {/* <TodoList/> */}
+    {/* <NavBar></NavBar>
     <Routes>
       <Route path ='/' element = {<Home />}></Route>
       <Route path ='about' element = {<About />}></Route>
       <Route path = 'order' element = {<OrderSummray/>}></Route>
-    </Routes>
+    </Routes> */}
 
      {/* <YoutubeForm></YoutubeForm>  */}
       {/* <DataFecting /> */}
